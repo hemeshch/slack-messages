@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 
 app.post('/form-submit', (req, res) => {
 	axios
-		.post('https://hooks.slack.com/services/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', {
+		.post('https://hooks.slack.com/', {
 			blocks: [
 				{
 					type: 'section',
